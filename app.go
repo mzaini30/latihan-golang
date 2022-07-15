@@ -1,5 +1,11 @@
 package main
 
-func main(){
-	print("Hello world\n")
+func cek(e error) {
+	if e != nil {
+		panic(e)
+	}
+}
+
+func main() {
+
 }
